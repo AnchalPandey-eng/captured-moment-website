@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Company Name</title>
+    <link rel="stylesheet" href="team.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Explore Moments</div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Team.html">Team </a></li>
+                <li><a href="gallery.html">Gallery</a></li>    
+                <li><a href="contact.php">Contact</a></li>    
+                <li><a href="ad,in.php">Admin</a></li>   
+            </ul>
+        </nav>
+    </header>
+
+    <section class="team-section">
+        <h1>We are the people who make up Company Name</h1>
+        <p>Our philosophy is simple: hire great people and give them the resources and support to do their best work.</p>
+        
+        <div class="team-grid">
+            <div class="team-member" id="member-1">
+                <img src="Swadesh Nepali.jpeg" alt="Swadesh Nepali" class="clickable">
+                <h3>Swadesh Nepali</h3>
+                <p>Founder & CEO</p>
+                <p>Former co-founder of Opendoor. Early staff at Spotify and Clearbit.</p>
+                <button onclick="editMember('Swadesh Nepali')">Edit</button>
+                <button onclick="deleteMember('Swadesh Nepali')">Delete</button>
+            </div>
+            <div class="team-member">
+                <img src="Suman Shakya.jpeg" alt="Suman Shakya" class="clickable">
+                <h3>Suman Shakya</h3>
+                <p>Engineering Manager</p>
+                <p>Lead engineering teams at Netflix, Pitch, and Protocol Labs.</p>
+                <button onclick="editMember('Suman Shakya')">Edit</button>
+                <button onclick="deleteMember('Suman Shakya')">Delete</button>
+            </div>
+            <div class="team-member">
+                <img src="Suchana Paati.jpeg" alt="Suchana Paati" class="clickable">
+                <h3>Suchana Paati</h3>
+                <p>Product Designer</p>
+                <p>Founding design team at Figma. Former Pleo, Stripe, and Tile.</p>
+                <button onclick="editMember('Suchana Paati')">Edit</button>
+                <button onclick="deleteMember('Suchana Paati')">Delete</button>
+            </div>
+            <div class="team-member">
+                <img src="Raj Thapa.jpeg" alt="Raj Thapa" class="clickable">
+                <h3>Raj Thapa</h3>
+                <p>Frontend Developer</p>
+                <p>Former frontend dev for Linear, Coinbase, and Postscript.</p>
+                <button onclick="editMember('Raj Thapa')">Edit</button>
+                <button onclick="deleteMember('Raj Thapa')">Delete</button>
+            </div>
+            <div class="team-member">
+                <img src="Kanchan Bhatta.jpeg" alt="Kanchan Bhatta" class="clickable">
+                <h3>Kanchan Bhatta</h3>
+                <p>Product Manager</p>
+                <button onclick="editMember('Kanchan Bhatta')">Edit</button>
+                <button onclick="deleteMember('Kanchan Bhatta')">Delete</button>
+            </div>
+            <div class="team-member">
+                <img src="Kokil Thapa.jpeg" alt="Kokil Thapa" class="clickable">
+                <h3>Kokil Thapa</h3>
+                <p>Backend Developer</p>
+                <button onclick="editMember('Kokil Thapa')">Edit</button>
+                <button onclick="deleteMember('Kokil Thapa')">Delete</button>
+
+            </div>
+            <div class="team-member">
+                <img src="Riya Shrestha.jpeg" alt="Riya Shrestha" class="clickable">
+                <h3>Riya Shrestha</h3>
+                <p>UX Researcher</p>
+                <button onclick="editMember('Riya Shrestha')">Edit</button>
+                <button onclick="deleteMember('Riya Shrestha')">Delete</button>
+            </div>
+            <div class="team-member">
+                <img src="Ashish bhandari.jpeg" alt="Ashish bhandari" class="clickable">
+                <h3>Ashish bhandari</h3>
+                <p>Customer Success</p>
+                <button onclick="editMember('Ashish bhandari')">Edit</button>
+                <button onclick="deleteMember('Ashish bhandari')">Delete</button>
+            </div>
+        </div>
+    </section>
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+    <footer>
+        <p>Capture Moments, By Anchal_Pandey. </p>
+    </footer>
+    <script src="team.js"></script>
+</body>
+</html>

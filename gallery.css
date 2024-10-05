@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF5A5F;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 150px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
+.hero-about {
+    background-image: url('image/dahlia-red-blossom-bloom-60597.webp');
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-about h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-about p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.about-section {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.about-intro {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.intro-text {
+    max-width: 50%;
+}
+
+.intro-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.intro-images {
+    display: flex;
+    justify-content: space-around;
+    max-width: 50%;
+}
+
+.intro-images img {
+    width: 45%;
+    height: auto;
+}
+
+.promo-section {
+    background-color: #FF5A5F;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.promo-section h2 {
+    margin-bottom: 10px;
+}
+
+.promo-section button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.trusted-sponsors {
+    padding: 60px 40px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.trusted-sponsors h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sponsor-logos img {
+    margin: 10px 20px;
+    max-width: 100px;
+    height: auto;
+}
+
+.menu-section {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.menu-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: left;
+}
+
+.menu-card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.menu-card p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.services-section {
+    padding: 60px 40px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    text-align: center;
+}
+
+.service img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.promo-section {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.promo-section button {
+    background-color: white;
+    color: red;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.promo-section button:hover {
+    background-color: #f1f1f1;
+}
+
+
+

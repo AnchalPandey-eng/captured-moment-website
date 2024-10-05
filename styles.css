@@ -1,0 +1,154 @@
+*{
+    margin :0;
+    padding:0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF5A5F;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 150px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero-section {
+    background-image: url('image/pexels-photo-228095.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.about-section {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:red;
+}
+
+.about-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.about-section {
+    background-color: #F7F7F7;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.menu-card {
+    margin: 0 200px;
+    text-align: center;
+}
+
+.menu-card h3{
+    color:red;
+}
+
+.featured-dishes {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.featured-dishes h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.dishes {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.dish-card {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.dish-card img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
